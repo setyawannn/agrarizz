@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "./component/navbar/navbar";
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -29,7 +29,10 @@ export default function RootLayout({
       <body
         className={`${space_grotesk.variable} ${inter.variable} antialiased`}
       >
-        {children}
+        {/* NAVBAR START */}
+        <Navbar></Navbar>
+        {/* CAPSULE */}
+        <div className="capsule text-ourblack">{children}</div>
       </body>
     </html>
   );

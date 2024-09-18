@@ -9,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        primary: "#163224",
+        ourblack: "#121212",
+        secondary: "#ECAB2E",
+        ourwhite: "#FAFAFA",
+        purewhite: "#FFFFFF",
+
         foreground: "var(--foreground)",
       },
       fontFamily: {
