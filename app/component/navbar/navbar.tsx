@@ -1,19 +1,22 @@
 import Image from "next/image";
 import Logo from "@/app/assets/nav-logo.png";
+import Menu from "@/app/assets/menu-toggle.png";
 
 export default function Navbar() {
   return (
-    <div className="text-ourblack bg-purewhite flex w-full items-center justify-between px-20 font-bold drop-shadow-lg lg:h-20">
-      <div className="">
-        <Image src={Logo} width={154} alt="Picture of the author" />
-      </div>
-      <div className="flex gap-4">
-        <button className="outline-ourblack rounded-xl px-14 py-3 outline">
-          Sign up
-        </button>
-        <button className="outline-primary bg-primary text-ourwhite rounded-xl px-14 py-3 outline">
-          Login
-        </button>
+    <div className="min-h-20 w-full bg-purewhite p-3 shadow-lg">
+      <div className="flex justify-center md:justify-between md:px-20">
+        <Image src={Logo} width={150} alt="Picture of the author" />
+        <div className="hidden font-bold text-primary md:block">
+          <div className="flex gap-4">
+            <button className="rounded-2xl px-12 py-3 outline outline-primary">
+              Sign-up
+            </button>
+            <button className="rounded-2xl bg-primary px-12 py-3 text-ourwhite outline outline-primary">
+              Sign-up
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
