@@ -14,7 +14,7 @@ const config: Config = {
         secondary: "#ECAB2E",
         ourwhite: "#FAFAFA",
         purewhite: "#FFFFFF",
-
+        outline: "#F5E9D1",
         foreground: "var(--foreground)",
       },
       fontFamily: {

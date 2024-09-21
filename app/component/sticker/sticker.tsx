@@ -6,7 +6,7 @@ import Hat from "@/app/assets/Hat.svg";
 export default function Sticker() {
   return (
     <div className="flex min-h-36 w-full flex-col items-center justify-center gap-y-10 bg-[#F5E9D1] bg-opacity-30 py-10 md:mt-10 md:flex-row md:gap-x-[4rem] xl:gap-x-[18rem]">
-      <div className="flex h-fit min-w-[14rem] gap-4">
+      <div className="flex h-fit min-w-[16rem] gap-4">
         <Image
           className="-mt-1 aspect-square w-16"
           src={UsersThree}
@@ -18,7 +18,7 @@ export default function Sticker() {
           <span className="">Petani di Indonesia</span>
         </div>
       </div>
-      <div className="flex h-fit gap-4">
+      <div className="flex h-fit min-w-[16rem] gap-4">
         <Image
           className="-mt-1 aspect-square w-16"
           src={Toga}
@@ -30,7 +30,7 @@ export default function Sticker() {
           <span className="">Berpendidikan Rendah</span>
         </div>
       </div>
-      <div className="flex h-fit gap-4">
+      <div className="flex h-fit min-w-[16rem] gap-6">
         <Image
           className="-mt-1 h-14 w-14"
           src={Hat}

@@ -29,3 +29,9 @@ body {
 .underline {
   text-decoration-color: #ecab2e;
 }
+
+.bg-testimoni {
+  background-image: url(./assets/bgtestimoni.svg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
