@@ -14,7 +14,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed left-0 top-0 min-h-20 w-full shadow-sm">
+    <div className="fixed left-0 top-0 z-10 min-h-20 w-full shadow-sm">
       <div className="items-center justify-between bg-white px-7 py-5 md:flex md:px-20">
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
           <Image src={Logo} width={120} alt="Picture of the author" />

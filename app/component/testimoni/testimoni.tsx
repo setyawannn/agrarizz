@@ -1,10 +1,10 @@
 import Video from "@/app/assets/video.svg";
 import Image from "next/image";
-import Swiper from "@/app/component/swiper/swiper";
+import Swiper from "@/app/component/swiper/vertikalSwiper";
 
 export default function Testimoni() {
   return (
-    <div className="bg-testimoni min-h-[50rem] w-full overflow-hidden bg-ourwhite p-10 md:px-24 md:py-0 md:py-10">
+    <div className="bg-testimoni h-full min-h-[50rem] w-full overflow-hidden bg-ourwhite p-10 md:min-h-[50rem] md:px-24 md:py-0 md:py-10">
       <div className="gap-x-5 md:flex lg:gap-x-[10rem] xl:gap-x-[20rem]">
         {/* LEFT SIDE */}
         <div className="flex min-h-[20rem] flex-col gap-y-10 md:block md:w-[40%] xl:w-1/2">
@@ -27,7 +27,7 @@ export default function Testimoni() {
           </div>
         </div>
         {/* RIGHT SIDE */}
-        <div className="mt-20 md:mt-0 md:w-[60%] xl:w-1/2">
+        <div className="z-0 mt-20 md:mt-0 md:w-[60%] xl:w-1/2">
           <Swiper></Swiper>
         </div>
       </div>

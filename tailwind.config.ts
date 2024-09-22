@@ -15,6 +15,8 @@ const config: Config = {
         ourwhite: "#FAFAFA",
         purewhite: "#FFFFFF",
         outline: "#F5E9D1",
+        ourgreen: "#163224",
+        lightgreen: "#D1F5D5",
         foreground: "var(--foreground)",
       },
       fontFamily: {

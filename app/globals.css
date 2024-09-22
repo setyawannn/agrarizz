@@ -33,5 +33,17 @@ body {
 .bg-testimoni {
   background-image: url(./assets/bgtestimoni.svg);
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  .bg-testimoni {
+    background-image: url(../app/assets/bgtestimonimobile.svg);
+    background-size: cover;
+  }
+
+  .bg-mentor {
+    background-image: url(../app/assets/mentor-bg.svg);
+    background-size: cover;
+  }
 }

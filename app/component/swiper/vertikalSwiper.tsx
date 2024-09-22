@@ -46,8 +46,9 @@ const Slider = () => {
   const SlideList = testimoniData.map((testimoniData) => (
     <SwiperSlide className="listSwiper my" key={testimoniData.id}>
       {testimoniData.id % 2 === 0 ? (
-        <div className="slides flex min-h-[10rem] flex-row-reverse gap-x-3 p-1 md:min-h-[15rem] md:gap-x-8">
-          <div className="left-side">
+        // CARD UNTUK ID GENAP
+        <div className="slides flex min-h-[10rem] flex-row-reverse p-1 md:min-h-[15rem]">
+          <div className="left-side ms-6 md:ms-10">
             <div className="flex aspect-square w-10 justify-center rounded-full md:w-20">
               <Image
                 className="aspect-square overflow-clip rounded-full bg-center md:h-[4rem] md:w-[4rem]"
@@ -57,7 +58,7 @@ const Slider = () => {
               />
             </div>
           </div>
-          <div className="card outline-outline min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 md:p-6 md:outline-2">
+          <div className="card min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 outline-outline md:p-6 md:outline-2">
             <div>
               <h1 className="text-[18px] font-semibold tracking-wider md:mb-0 md:text-2xl md:tracking-normal">
                 {testimoniData.nama}
@@ -72,8 +73,9 @@ const Slider = () => {
           </div>
         </div>
       ) : (
-        <div className="slides flex min-h-[10rem] gap-x-3 p-1 md:min-h-[15rem] md:gap-x-8">
-          <div className="left-side">
+        // UNTUK CARD YANG ID NYA GANJIL
+        <div className="slides flex min-h-[10rem] p-1 md:min-h-[15rem]">
+          <div className="left-side me-2 md:me-10">
             <div className="flex aspect-square w-20 justify-center rounded-full">
               <Image
                 className="aspect-square overflow-clip rounded-full bg-center md:h-[4rem] md:w-[4rem]"
@@ -83,7 +85,7 @@ const Slider = () => {
               />
             </div>
           </div>
-          <div className="card outline-outline min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 md:p-6 md:outline-2">
+          <div className="card min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 outline-outline md:p-6 md:outline-2">
             <div>
               <h1 className="text-[18px] font-semibold tracking-wider md:mb-0 md:text-2xl md:tracking-normal">
                 {testimoniData.nama}
