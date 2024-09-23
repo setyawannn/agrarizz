@@ -58,7 +58,7 @@ const Slider = () => {
               />
             </div>
           </div>
-          <div className="card min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 outline-outline md:p-6 md:outline-2">
+          <div className="card min-h-[16rem] w-full rounded-r-2xl rounded-bl-2xl bg-purewhite p-4 outline outline-1 outline-outline md:p-6 md:outline-2 lg:min-w-[30rem]">
             <div>
               <h1 className="text-[18px] font-semibold tracking-wider md:mb-0 md:text-2xl md:tracking-normal">
                 {testimoniData.nama}
@@ -110,7 +110,7 @@ const Slider = () => {
           className="-mt-4 h-[50rem]"
           loop={true}
           direction="vertical"
-          spaceBetween={250}
+          spaceBetween={300}
           slidesPerView={3}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}

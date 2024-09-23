@@ -36,6 +36,10 @@ body {
   background-size: 100%;
 }
 
+.bg-mentor{
+  background-image: url();
+}
+
 @media only screen and (max-width: 640px) {
   .bg-testimoni {
     background-image: url(../app/assets/bgtestimonimobile.svg);

@@ -10,14 +10,14 @@ const fundedData = [
 const mentor = () => {
   const fundedList = fundedData.map((fundedData) => (
     <span
-      className="bg-lightgreen text-ourgreen w-1/3 rounded-lg px-2 py-2 text-center text-[10px] font-bold md:px-6 md:text-lg"
+      className="w-1/3 rounded-lg bg-lightgreen px-2 py-2 text-center text-[10px] font-bold text-ourgreen md:px-6 md:text-lg"
       key={fundedData.id}
     >
       {fundedData.title}
     </span>
   ));
   return (
-    <div className="bg-mentor bg-lightgreen min-h-[40rem] w-full bg-opacity-15 px-10 py-28 md:flex md:px-16">
+    <div className="bg-mentor min-h-[40rem] w-full bg-lightgreen bg-opacity-15 px-10 py-28 md:flex md:px-16">
       <div className="flex flex-col items-center justify-start md:w-2/4 md:items-start">
         <div className="w-full md:w-[70%]">
           <Image
@@ -33,7 +33,7 @@ const mentor = () => {
       </div>
       <div className="mt-10 flex items-center md:w-2/4">
         <div className="min-h-[50%] md:px-10">
-          <h1 className="text-ourgreen text-left text-3xl md:text-5xl">
+          <h1 className="text-left text-3xl text-ourgreen md:text-5xl">
             <span className="font-bold">Jadilah Mentor</span> untuk Masa Depan
             Pertanian Indonesia
           </h1>
@@ -61,7 +61,7 @@ const mentor = () => {
                 width={0}
                 alt="Picture of the author"
               />
-              <span>Sertifikat Penghargaan</span>
+              <span>Dukungan Pendanaan</span>
             </span>
             <span className="flex items-center gap-x-1 text-[10px] md:gap-x-3 md:text-lg">
               <Image
@@ -70,7 +70,7 @@ const mentor = () => {
                 width={0}
                 alt="Picture of the author"
               />
-              <span>Sertifikat Penghargaan</span>
+              <span>Jaringan Profesional</span>
             </span>
             <span className="flex items-center gap-x-1 text-[10px] md:gap-x-3 md:text-lg">
               <Image
@@ -79,7 +79,7 @@ const mentor = () => {
                 width={0}
                 alt="Picture of the author"
               />
-              <span>Sertifikat Penghargaan</span>
+              <span>Pengalaman Praktis</span>
             </span>
           </div>
           <button className="group mt-10 flex items-center gap-x-4 rounded-lg bg-secondary px-4 py-2 text-sm text-ourwhite md:text-lg">

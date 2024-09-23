@@ -2,7 +2,7 @@ import Image from "next/image";
 import HeroImg from "@/app/assets/hero-img.png";
 export default function Hero() {
   return (
-    <div className="mt-20">
+    <div className="md:mt-30 mt-40">
       {/*START HERO BAGIAN KIRI */}
       <div className="mt-14 flex w-full flex-col items-center font-bold md:mt-0 md:flex-row md:px-20">
         <div className="w-full justify-center md:flex md:w-1/2 md:flex-col">

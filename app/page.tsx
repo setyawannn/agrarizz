@@ -3,6 +3,7 @@ import Sticker from "./component/sticker/sticker";
 import About from "./component/aboutMe/about";
 import Testi from "./component/testimoni/testimoni";
 import Mentor from "./component/mentor/mentor";
+import Mentor2 from "./component/mentor/mentor-2";
 export default function Home() {
   return (
     <div className="font-inter">
@@ -12,6 +13,7 @@ export default function Home() {
       <Testi></Testi>
 
       <Mentor></Mentor>
+      <Mentor2></Mentor2>
     </div>
   );
 }
