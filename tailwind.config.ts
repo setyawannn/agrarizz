@@ -18,6 +18,7 @@ const config: Config = {
         ourgreen: "#163224",
         lightgreen: "#D1F5D5",
         foreground: "var(--foreground)",
+        ourgray: "#929292",
       },
       fontFamily: {
         "space-grotesk": ["var(--font-space-grotesk)"],

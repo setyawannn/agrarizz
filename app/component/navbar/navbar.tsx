@@ -43,7 +43,7 @@ const Navbar = () => {
               Sign-up
             </button>
             <button className="w-full rounded-xl bg-primary px-12 py-[10px] text-ourwhite outline outline-primary">
-              Sign-up
+              Login
             </button>
           </div>
         </ul>
@@ -52,7 +52,7 @@ const Navbar = () => {
             Sign-up
           </button>
           <button className="rounded-xl bg-primary px-12 py-[10px] text-ourwhite outline outline-primary">
-            Sign-up
+            Login
           </button>
         </div>
         {/* button */}
