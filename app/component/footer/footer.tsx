@@ -11,10 +11,10 @@ const footer = () => {
   ];
 
   const sosialData = [
-    { id: 1, image: require("@/app/assets/facebook-logo.svg") },
-    { id: 2, image: require("@/app/assets/Twitter-logo.svg") },
-    { id: 3, image: require("@/app/assets/linkedin-logo.svg") },
-    { id: 4, image: require("@/app/assets/instagram-logo.png") },
+    { id: 1, image: "/assets/facebook-logo.svg" },
+    { id: 2, image: "/assets/Twitter-logo.svg" },
+    { id: 3, image: "/assets/linkedin-logo.svg" },
+    { id: 4, image: "/assets/instagram-logo.png" },
   ];
 
   return (
@@ -48,7 +48,8 @@ const footer = () => {
               <Image
                 className="aspect-square md:w-6"
                 src={sosial.image}
-                width={0}
+                width={24}
+                height={24}
                 alt="Picture of the author"
               />
             </div>
