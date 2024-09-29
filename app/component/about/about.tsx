@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Drone from "@/app/assets/Drone.svg";
 
-export default function () {
+export default function About() {
   return (
     <div className="mt-10 min-h-[60rem] w-full md:min-h-fit md:px-10">
       <div className="flex flex-col items-center justify-center md:flex-row">

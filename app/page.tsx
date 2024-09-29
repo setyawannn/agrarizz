@@ -1,6 +1,6 @@
 import Hero from "./component/hero/hero";
 import Sticker from "./component/sticker/sticker";
-import About from "./component/aboutMe/about";
+import About from "./component/about/about";
 import Testi from "./component/testimoni/testimoni";
 import Mentor from "./component/mentor/mentor";
 import Mentor2 from "./component/mentor/mentor-2";
