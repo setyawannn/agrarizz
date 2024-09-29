@@ -1,4 +1,5 @@
 import Video from "@/app/assets/video.svg";
+// SUMBER GAMBAR VIDEO : https://infopublik.id/assets/upload/headline//20170412014400.jpg
 import Image from "next/image";
 import Swiper from "@/app/component/swiper/vertikalSwiper";
 
@@ -21,7 +22,7 @@ export default function Testimoni() {
                 alt="Picture of the author"
               />
             </div>
-            <div className="mt-16 text-center text-3xl font-normal text-ourwhite md:px-32 lg:text-3xl">
+            <div className="mt-16 text-center font-space-grotesk text-3xl font-normal text-ourwhite md:px-32 lg:text-3xl">
               <h1>Kilas Balik Mentoring di Desa Sukamaju</h1>
             </div>
           </div>
