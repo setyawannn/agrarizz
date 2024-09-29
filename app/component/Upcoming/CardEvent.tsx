@@ -55,7 +55,7 @@ const CardEvent: React.FC<CardEventProps> = ({
               {collectedAmount}
             </h6>
           </div>
-          <button className="rounded-lg bg-primary px-6 py-2 text-sm font-medium text-white md:rounded-xl md:px-14 md:py-4 md:text-lg">
+          <button className="rounded-lg bg-primary px-6 py-2 text-sm font-medium text-white md:rounded-xl md:px-14 md:py-2 md:text-lg">
             Donasi
           </button>
         </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "@/app/assets/nav-logo.png";
 
 const footer = () => {
   const Links = [
@@ -23,8 +22,9 @@ const footer = () => {
         <div className="mt-16 min-w-32">
           <Image
             className="md:w-44"
-            src={Logo}
-            width={0}
+            src="/assets/logo.svg"
+            width={100}
+            height={100}
             alt="Picture of the author"
           />
         </div>

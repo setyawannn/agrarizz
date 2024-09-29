@@ -39,8 +39,8 @@ const UpcomingEvent = () => {
   const [scrollLeft, setScrollLeft] = useState(0);
 
   const handleMouseDown = (e: React.MouseEvent) => {
-    if (e.target instanceof HTMLButtonElement) return; // Prevent dragging when clicking a button
-    e.preventDefault(); // Prevent default behavior
+    if (e.target instanceof HTMLButtonElement) return;
+    e.preventDefault();
     setIsDragging(true);
     setStartX(e.pageX - (scrollRef.current?.offsetLeft || 0));
     setScrollLeft(scrollRef.current?.scrollLeft || 0);
@@ -56,18 +56,17 @@ const UpcomingEvent = () => {
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!isDragging) return;
-    e.preventDefault(); // Prevent default behavior
+    e.preventDefault();
     const x = e.pageX - (scrollRef.current?.offsetLeft || 0);
-    const walk = (x - startX) * 2; // Adjust the scroll speed
+    const walk = (x - startX) * 2;
     if (scrollRef.current) {
       scrollRef.current.scrollLeft = scrollLeft - walk;
     }
   };
 
-  // Handle touch events for mobile
   const handleTouchStart = (e: React.TouchEvent) => {
-    if (e.target instanceof HTMLButtonElement) return; // Prevent dragging when touching a button
-    e.preventDefault(); // Prevent default behavior
+    if (e.target instanceof HTMLButtonElement) return;
+    e.preventDefault();
     setIsDragging(true);
     setStartX(e.touches[0].pageX - (scrollRef.current?.offsetLeft || 0));
     setScrollLeft(scrollRef.current?.scrollLeft || 0);
@@ -79,9 +78,9 @@ const UpcomingEvent = () => {
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging) return;
-    e.preventDefault(); // Prevent default behavior
+    e.preventDefault();
     const x = e.touches[0].pageX - (scrollRef.current?.offsetLeft || 0);
-    const walk = (x - startX) * 2; // Adjust the scroll speed
+    const walk = (x - startX) * 2;
     if (scrollRef.current) {
       scrollRef.current.scrollLeft = scrollLeft - walk;
     }
@@ -104,7 +103,7 @@ const UpcomingEvent = () => {
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         onTouchMove={handleTouchMove}
-        style={{ userSelect: "none" }} // Prevent text selection
+        style={{ userSelect: "none" }}
       >
         {upcomingList.map((item) => (
           <div key={item.id} className="flex justify-center">
@@ -115,7 +114,7 @@ const UpcomingEvent = () => {
               title={item.title}
               progress={item.progress}
               collectedAmount={item.collectedAmount}
-              className="w-[18rem] md:w-[32rem]" // Adjust width as necessary
+              className="w-[18rem] md:w-[32rem]"
             />
           </div>
         ))}

@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import Logo from "@/app/assets/nav-logo.png";
 
 const Navbar = () => {
   const Links = [
@@ -17,7 +16,12 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 z-10 min-h-20 w-full shadow-sm">
       <div className="items-center justify-between bg-white px-7 py-5 md:flex md:px-20">
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
-          <Image src={Logo} width={120} alt="Picture of the author" />
+          <Image
+            src={"/assets/logo.svg"}
+            width={120}
+            height={120}
+            alt="Picture of the author"
+          />
         </div>
         <div
           onClick={() => setOpen(!open)}

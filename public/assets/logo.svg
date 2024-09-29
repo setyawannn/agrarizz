@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 446.8 160.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        font-family: SpaceGrotesk-Bold, 'Space Grotesk';
+        font-size: 72px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: #163224;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #ecab2e;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-3" d="M45.39,95.89v35.35l58-57.9c.85-.85,1.33-2.01,1.33-3.21v-22.06c0-4.03-4.86-6.06-7.73-3.23l-51.61,51.04Z"/>
+      <path class="cls-3" d="M0,26.43v22.22c0,1.2.48,2.36,1.33,3.21l44.06,43.98v-33.46c0-1.21-.48-2.37-1.35-3.22L7.73,23.21c-2.87-2.84-7.73-.81-7.73,3.22Z"/>
+      <path class="cls-3" d="M0,97.2v22.22c0,1.2.48,2.36,1.33,3.21l36.32,36.25c2.86,2.85,7.74.83,7.74-3.21v-24.41L7.73,93.97c-2.87-2.84-7.73-.81-7.73,3.22Z"/>
+    </g>
+    <path class="cls-4" d="M66.2,31.44c2.28,24.25-15.54,24.25-13.26,0-24.25,2.28-24.25-15.54,0-13.26-2.28-24.25,15.54-24.25,13.26,0,24.25-2.28,24.25,15.54,0,13.26Z"/>
+  </g>
+  <text class="cls-1" transform="translate(146.71 113.23)"><tspan x="0" y="0">Ag</tspan><tspan class="cls-2" x="91.58" y="0">r</tspan><tspan x="119.23" y="0">aRizz</tspan></text>
+</svg>
