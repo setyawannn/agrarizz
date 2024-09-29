@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Mentor from "@/app/assets/mentor-img.svg";
+//SUMBER : https://www.freepik.com/free-photo/portrait-asian-farmer-man-woman-working-with-laptop-organic-vegetable-hydroponic-farm-hydroponic-salad-garden-owner-checking-quality-vegetable-greenhouse-plantation_22818195.htm#fromView=search&page=1&position=5&uuid=e33a7e0d-62f4-415a-9e2d-908f6e32b557
 import Check from "@/app/assets/double-check.svg";
 import Arrow from "@/app/assets/arrow.svg";
 const fundedData = [
@@ -33,7 +34,7 @@ const mentor = () => {
       </div>
       <div className="mt-10 flex items-center md:w-2/4">
         <div className="min-h-[50%] md:px-10">
-          <h1 className="text-left text-3xl text-ourgreen md:text-5xl">
+          <h1 className="text-left font-space-grotesk text-3xl text-ourgreen md:text-5xl">
             <span className="font-bold">Jadilah Mentor</span> untuk Masa Depan
             Pertanian Indonesia
           </h1>

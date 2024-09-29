@@ -60,17 +60,19 @@ const sponsor = () => {
   return (
     <div className="mt-20 min-h-[50rem] px-10">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-ourgreen text-center text-3xl font-bold">
+        <h1 className="text-center font-space-grotesk text-3xl font-bold text-ourgreen md:text-5xl">
           Partner Kolaborasi Sukses
         </h1>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-5">{imageList}</div>
-        <p className="text-ourgray mt-5 text-center text-sm md:text-lg xl:w-[40%]">
+        <p className="mt-5 text-center text-sm text-ourgray md:text-lg xl:w-[40%]">
           Lebih dari 20 partner telah berhasil berkolaborasi dengan kami,
           mendukung petani melalui teknologi pertanian modern. Bergabunglah
           dengan kami untuk bersama memajukan pertanian Indonesia.
         </p>
-        <button className="bg-ourgreen mb-32 mt-10 flex items-center rounded-lg px-4 py-3 font-semibold text-ourwhite">
-          <span className="me-3">Ayo Berkolaborasi Bersama Kami</span>
+        <button className="mb-32 mt-10 flex items-center rounded-lg bg-ourgreen px-4 py-3 font-semibold text-ourwhite">
+          <span className="me-3 text-[12px] md:text-xl">
+            Ayo Berkolaborasi Bersama Kami
+          </span>
           <span>
             <Image
               className="w-6"

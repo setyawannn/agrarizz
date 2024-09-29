@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Drone from "@/app/assets/Drone.svg";
+// SUMBER : https://www.skyfarmers.co.za/products/agtras-t40
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
           />
         </div>
         <div className="-mt-6 flex w-full flex-col items-center px-10 md:w-1/2 md:items-start">
-          <h1 className="text-3xl font-bold md:text-lg lg:text-xl xl:text-5xl">
+          <h1 className="font-space-grotesk text-3xl font-bold md:text-lg lg:text-xl xl:text-5xl">
             Tentang Kami
           </h1>
           <div className="text-sm md:text-[14px] lg:text-sm xl:text-lg">

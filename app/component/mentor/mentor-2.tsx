@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Mentor2 from "@/app/assets/mentor-img-2.svg";
+// SUMBER : https://www.freepik.com/free-ai-image/front-view-old-man-portrait_93672625.htm#fromView=search&page=1&position=19&uuid=9767c74b-e968-4ef4-bf83-9a062f3a5c09
 import Check from "@/app/assets/double-check.svg";
 import Arrow from "@/app/assets/arrow.svg";
 
@@ -19,7 +20,7 @@ const mentor2 = () => {
         </div>
         <div className="mt-10 flex items-center md:w-2/4">
           <div className="min-h-[50%] md:px-10">
-            <h1 className="text-left text-3xl text-ourgreen md:text-5xl">
+            <h1 className="text-left font-space-grotesk text-3xl text-ourgreen md:text-5xl">
               <span className="font-bold">
                 Bergabung dengan Komunitas Petani AgraRizz
               </span>
