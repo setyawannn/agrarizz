@@ -31,6 +31,24 @@ const UpcomingEvent = () => {
       progress: 55,
       collectedAmount: "Rp. 1.320.000",
     },
+    {
+      id: 4,
+      image: "/assets/upcoming-event-4.png",
+      author: "Nada Musyaffa Bilhaqi, S.P.",
+      date: "17 November 2024",
+      title: "Workshop Pertanian Pintar di Desa Kebonagung",
+      progress: 40,
+      collectedAmount: "Rp. 1.475.500",
+    },
+    {
+      id: 5,
+      image: "/assets/upcoming-event-5.png",
+      author: "M. Arrafi Rakka, S.P.",
+      date: "24 Desember 2024",
+      title: "Mentoring Pertanian Berkelanjutan di Desa Banyuwangi",
+      progress: 22,
+      collectedAmount: "Rp. 654.000",
+    },
   ];
 
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -88,14 +106,14 @@ const UpcomingEvent = () => {
 
   return (
     <div className="mt-10 w-full py-20 pl-8 md:min-h-fit md:pl-24">
-      <div className="mb-8 flex justify-center">
+      <div className="mb-8 flex justify-center md:mb-4">
         <h3 className="w-1/2 text-center font-space-grotesk text-3xl font-bold md:my-10 md:w-full md:text-start lg:text-5xl">
           Kegiatan Mendatang
         </h3>
       </div>
       <div
         ref={scrollRef}
-        className="flex cursor-grab gap-8 overflow-x-hidden"
+        className="flex cursor-grab gap-8 overflow-x-hidden p-8"
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
